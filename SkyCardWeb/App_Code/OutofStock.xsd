@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="OutofStock" targetNamespace="http://tempuri.org/OutofStock.xsd" xmlns:mstns="http://tempuri.org/OutofStock.xsd" xmlns="http://tempuri.org/OutofStock.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="OutofStock" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="OutofStock" msprop:Generator_DataSetName="OutofStock">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table" msprop:Generator_UserTableName="Table" msprop:Generator_RowDeletedName="TableRowDeleted" msprop:Generator_RowChangedName="TableRowChanged" msprop:Generator_RowClassName="TableRow" msprop:Generator_RowChangingName="TableRowChanging" msprop:Generator_RowEvArgName="TableRowChangeEvent" msprop:Generator_RowEvHandlerName="TableRowChangeEventHandler" msprop:Generator_TableClassName="TableDataTable" msprop:Generator_TableVarName="tableTable" msprop:Generator_RowDeletingName="TableRowDeleting" msprop:Generator_TablePropName="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ItemID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ItemID" msprop:Generator_ColumnVarNameInTable="columnItemID" msprop:Generator_ColumnPropNameInRow="ItemID" msprop:Generator_ColumnPropNameInTable="ItemIDColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ItemDesc" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ItemDesc" msprop:Generator_ColumnVarNameInTable="columnItemDesc" msprop:Generator_ColumnPropNameInRow="ItemDesc" msprop:Generator_ColumnPropNameInTable="ItemDescColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UOM" msdata:ReadOnly="true" msprop:Generator_UserColumnName="UOM" msprop:Generator_ColumnVarNameInTable="columnUOM" msprop:Generator_ColumnPropNameInRow="UOM" msprop:Generator_ColumnPropNameInTable="UOMColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ListPrice" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ListPrice" msprop:Generator_ColumnVarNameInTable="columnListPrice" msprop:Generator_ColumnPropNameInRow="ListPrice" msprop:Generator_ColumnPropNameInTable="ListPriceColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CostMultiplier" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CostMultiplier" msprop:Generator_ColumnVarNameInTable="columnCostMultiplier" msprop:Generator_ColumnPropNameInRow="CostMultiplier" msprop:Generator_ColumnPropNameInTable="CostMultiplierColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SellMultiplier" msdata:ReadOnly="true" msprop:Generator_UserColumnName="SellMultiplier" msprop:Generator_ColumnVarNameInTable="columnSellMultiplier" msprop:Generator_ColumnPropNameInRow="SellMultiplier" msprop:Generator_ColumnPropNameInTable="SellMultiplierColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="InvMin" msdata:ReadOnly="true" msprop:Generator_UserColumnName="InvMin" msprop:Generator_ColumnPropNameInRow="InvMin" msprop:Generator_ColumnVarNameInTable="columnInvMin" msprop:Generator_ColumnPropNameInTable="InvMinColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="InvMax" msdata:ReadOnly="true" msprop:Generator_UserColumnName="InvMax" msprop:Generator_ColumnPropNameInRow="InvMax" msprop:Generator_ColumnVarNameInTable="columnInvMax" msprop:Generator_ColumnPropNameInTable="InvMaxColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="QuantityOnHand" msdata:ReadOnly="true" msprop:Generator_UserColumnName="QuantityOnHand" msprop:Generator_ColumnPropNameInRow="QuantityOnHand" msprop:Generator_ColumnVarNameInTable="columnQuantityOnHand" msprop:Generator_ColumnPropNameInTable="QuantityOnHandColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

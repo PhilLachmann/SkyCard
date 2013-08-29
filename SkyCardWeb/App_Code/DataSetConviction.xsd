@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetConviction" targetNamespace="http://tempuri.org/DataSetConviction.xsd" xmlns:mstns="http://tempuri.org/DataSetConviction.xsd" xmlns="http://tempuri.org/DataSetConviction.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetConviction" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSetConviction" msprop:Generator_DataSetName="DataSetConviction">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetConvictionSearch" msprop:Generator_UserTableName="GetConvictionSearch" msprop:Generator_RowDeletedName="GetConvictionSearchRowDeleted" msprop:Generator_TableClassName="GetConvictionSearchDataTable" msprop:Generator_RowChangedName="GetConvictionSearchRowChanged" msprop:Generator_RowClassName="GetConvictionSearchRow" msprop:Generator_RowChangingName="GetConvictionSearchRowChanging" msprop:Generator_RowEvArgName="GetConvictionSearchRowChangeEvent" msprop:Generator_RowEvHandlerName="GetConvictionSearchRowChangeEventHandler" msprop:Generator_TablePropName="GetConvictionSearch" msprop:Generator_TableVarName="tableGetConvictionSearch" msprop:Generator_RowDeletingName="GetConvictionSearchRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CaseNumber" msprop:Generator_UserColumnName="CaseNumber" msprop:Generator_ColumnPropNameInRow="CaseNumber" msprop:Generator_ColumnVarNameInTable="columnCaseNumber" msprop:Generator_ColumnPropNameInTable="CaseNumberColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DefendantName" msprop:Generator_UserColumnName="DefendantName" msprop:Generator_ColumnPropNameInRow="DefendantName" msprop:Generator_ColumnVarNameInTable="columnDefendantName" msprop:Generator_ColumnPropNameInTable="DefendantNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4096" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DateInitiated" msprop:Generator_UserColumnName="DateInitiated" msprop:Generator_ColumnPropNameInRow="DateInitiated" msprop:Generator_ColumnVarNameInTable="columnDateInitiated" msprop:Generator_ColumnPropNameInTable="DateInitiatedColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ArraignmentDate" msprop:Generator_UserColumnName="ArraignmentDate" msprop:Generator_ColumnPropNameInRow="ArraignmentDate" msprop:Generator_ColumnVarNameInTable="columnArraignmentDate" msprop:Generator_ColumnPropNameInTable="ArraignmentDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PreTrialDate" msprop:Generator_UserColumnName="PreTrialDate" msprop:Generator_ColumnPropNameInRow="PreTrialDate" msprop:Generator_ColumnVarNameInTable="columnPreTrialDate" msprop:Generator_ColumnPropNameInTable="PreTrialDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="BenchTrialDate" msprop:Generator_UserColumnName="BenchTrialDate" msprop:Generator_ColumnPropNameInRow="BenchTrialDate" msprop:Generator_ColumnVarNameInTable="columnBenchTrialDate" msprop:Generator_ColumnPropNameInTable="BenchTrialDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="JuryTrialDate" msprop:Generator_UserColumnName="JuryTrialDate" msprop:Generator_ColumnPropNameInRow="JuryTrialDate" msprop:Generator_ColumnVarNameInTable="columnJuryTrialDate" msprop:Generator_ColumnPropNameInTable="JuryTrialDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Disposition" msprop:Generator_UserColumnName="Disposition" msprop:Generator_ColumnPropNameInRow="Disposition" msprop:Generator_ColumnVarNameInTable="columnDisposition" msprop:Generator_ColumnPropNameInTable="DispositionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Amended" msprop:Generator_UserColumnName="Amended" msprop:Generator_ColumnPropNameInRow="Amended" msprop:Generator_ColumnVarNameInTable="columnAmended" msprop:Generator_ColumnPropNameInTable="AmendedColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="AmendedToWhat" msprop:Generator_UserColumnName="AmendedToWhat" msprop:Generator_ColumnPropNameInRow="AmendedToWhat" msprop:Generator_ColumnVarNameInTable="columnAmendedToWhat" msprop:Generator_ColumnPropNameInTable="AmendedToWhatColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4096" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Conviction" msprop:Generator_UserColumnName="Conviction" msprop:Generator_ColumnPropNameInRow="Conviction" msprop:Generator_ColumnVarNameInTable="columnConviction" msprop:Generator_ColumnPropNameInTable="ConvictionColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Deleted" msprop:Generator_UserColumnName="Deleted" msprop:Generator_ColumnPropNameInRow="Deleted" msprop:Generator_ColumnVarNameInTable="columnDeleted" msprop:Generator_ColumnPropNameInTable="DeletedColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Last_modified" msprop:Generator_UserColumnName="Last_modified" msprop:Generator_ColumnPropNameInRow="Last_modified" msprop:Generator_ColumnVarNameInTable="columnLast_modified" msprop:Generator_ColumnPropNameInTable="Last_modifiedColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CaseType" msprop:Generator_UserColumnName="CaseType" msprop:Generator_ColumnPropNameInRow="CaseType" msprop:Generator_ColumnVarNameInTable="columnCaseType" msprop:Generator_ColumnPropNameInTable="CaseTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ChargeType" msprop:Generator_UserColumnName="ChargeType" msprop:Generator_ColumnPropNameInRow="ChargeType" msprop:Generator_ColumnVarNameInTable="columnChargeType" msprop:Generator_ColumnPropNameInTable="ChargeTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

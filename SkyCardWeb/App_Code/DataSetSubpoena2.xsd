@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetSubpoena2" targetNamespace="http://tempuri.org/DataSetSubpoena2.xsd" xmlns:mstns="http://tempuri.org/DataSetSubpoena2.xsd" xmlns="http://tempuri.org/DataSetSubpoena2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetSubpoena2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSetSubpoena2" msprop:Generator_DataSetName="DataSetSubpoena2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetSubpoena" msprop:Generator_UserTableName="GetSubpoena" msprop:Generator_RowDeletedName="GetSubpoenaRowDeleted" msprop:Generator_TableClassName="GetSubpoenaDataTable" msprop:Generator_RowChangedName="GetSubpoenaRowChanged" msprop:Generator_RowClassName="GetSubpoenaRow" msprop:Generator_RowChangingName="GetSubpoenaRowChanging" msprop:Generator_RowEvArgName="GetSubpoenaRowChangeEvent" msprop:Generator_RowEvHandlerName="GetSubpoenaRowChangeEventHandler" msprop:Generator_TablePropName="GetSubpoena" msprop:Generator_TableVarName="tableGetSubpoena" msprop:Generator_RowDeletingName="GetSubpoenaRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="CaseNumber" msprop:Generator_UserColumnName="CaseNumber" msprop:Generator_ColumnPropNameInRow="CaseNumber" msprop:Generator_ColumnVarNameInTable="columnCaseNumber" msprop:Generator_ColumnPropNameInTable="CaseNumberColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DefendantName" msprop:Generator_UserColumnName="DefendantName" msprop:Generator_ColumnPropNameInRow="DefendantName" msprop:Generator_ColumnVarNameInTable="columnDefendantName" msprop:Generator_ColumnPropNameInTable="DefendantNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4096" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WitnessName" msprop:Generator_UserColumnName="WitnessName" msprop:Generator_ColumnPropNameInRow="WitnessName" msprop:Generator_ColumnVarNameInTable="columnWitnessName" msprop:Generator_ColumnPropNameInTable="WitnessNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WitnessAddress1" msprop:Generator_UserColumnName="WitnessAddress1" msprop:Generator_ColumnPropNameInRow="WitnessAddress1" msprop:Generator_ColumnVarNameInTable="columnWitnessAddress1" msprop:Generator_ColumnPropNameInTable="WitnessAddress1Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WitnessAddress2" msprop:Generator_UserColumnName="WitnessAddress2" msprop:Generator_ColumnPropNameInRow="WitnessAddress2" msprop:Generator_ColumnVarNameInTable="columnWitnessAddress2" msprop:Generator_ColumnPropNameInTable="WitnessAddress2Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WitnessCity" msprop:Generator_UserColumnName="WitnessCity" msprop:Generator_ColumnPropNameInRow="WitnessCity" msprop:Generator_ColumnVarNameInTable="columnWitnessCity" msprop:Generator_ColumnPropNameInTable="WitnessCityColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WitnessState" msprop:Generator_UserColumnName="WitnessState" msprop:Generator_ColumnPropNameInRow="WitnessState" msprop:Generator_ColumnVarNameInTable="columnWitnessState" msprop:Generator_ColumnPropNameInTable="WitnessStateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WitnessZip" msprop:Generator_UserColumnName="WitnessZip" msprop:Generator_ColumnPropNameInRow="WitnessZip" msprop:Generator_ColumnVarNameInTable="columnWitnessZip" msprop:Generator_ColumnPropNameInTable="WitnessZipColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AppearDate" msprop:Generator_UserColumnName="AppearDate" msprop:Generator_ColumnPropNameInRow="AppearDate" msprop:Generator_ColumnVarNameInTable="columnAppearDate" msprop:Generator_ColumnPropNameInTable="AppearDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Courtroom" msprop:Generator_UserColumnName="Courtroom" msprop:Generator_ColumnPropNameInRow="Courtroom" msprop:Generator_ColumnVarNameInTable="columnCourtroom" msprop:Generator_ColumnPropNameInTable="CourtroomColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Testify" msprop:Generator_UserColumnName="Testify" msprop:Generator_ColumnPropNameInRow="Testify" msprop:Generator_ColumnVarNameInTable="columnTestify" msprop:Generator_ColumnPropNameInTable="TestifyColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Produce" msprop:Generator_UserColumnName="Produce" msprop:Generator_ColumnPropNameInRow="Produce" msprop:Generator_ColumnVarNameInTable="columnProduce" msprop:Generator_ColumnPropNameInTable="ProduceColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="DiscoveryDueDate" msprop:Generator_UserColumnName="DiscoveryDueDate" msprop:Generator_ColumnPropNameInRow="DiscoveryDueDate" msprop:Generator_ColumnVarNameInTable="columnDiscoveryDueDate" msprop:Generator_ColumnPropNameInTable="DiscoveryDueDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="RequestingAtty" msprop:Generator_UserColumnName="RequestingAtty" msprop:Generator_ColumnPropNameInRow="RequestingAtty" msprop:Generator_ColumnVarNameInTable="columnRequestingAtty" msprop:Generator_ColumnPropNameInTable="RequestingAttyColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AttyExt" msprop:Generator_UserColumnName="AttyExt" msprop:Generator_ColumnPropNameInRow="AttyExt" msprop:Generator_ColumnVarNameInTable="columnAttyExt" msprop:Generator_ColumnPropNameInTable="AttyExtColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Last_Modified" msprop:Generator_UserColumnName="Last_Modified" msprop:Generator_ColumnPropNameInRow="Last_Modified" msprop:Generator_ColumnVarNameInTable="columnLast_Modified" msprop:Generator_ColumnPropNameInTable="Last_ModifiedColumn" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:GetSubpoena" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

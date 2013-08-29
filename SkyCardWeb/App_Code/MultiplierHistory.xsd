@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MultiplierHistory" targetNamespace="http://tempuri.org/MultiplierHistory.xsd" xmlns:mstns="http://tempuri.org/MultiplierHistory.xsd" xmlns="http://tempuri.org/MultiplierHistory.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MultiplierHistory" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="MultiplierHistory" msprop:Generator_DataSetName="MultiplierHistory">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table" msprop:Generator_UserTableName="Table" msprop:Generator_RowDeletedName="TableRowDeleted" msprop:Generator_TableClassName="TableDataTable" msprop:Generator_RowChangedName="TableRowChanged" msprop:Generator_RowClassName="TableRow" msprop:Generator_RowChangingName="TableRowChanging" msprop:Generator_RowEvArgName="TableRowChangeEvent" msprop:Generator_RowEvHandlerName="TableRowChangeEventHandler" msprop:Generator_TablePropName="Table" msprop:Generator_TableVarName="tableTable" msprop:Generator_RowDeletingName="TableRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RecordID" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msdata:ReadOnly="true" msprop:Generator_UserColumnName="RecordID" msprop:Generator_ColumnPropNameInRow="RecordID" msprop:Generator_ColumnVarNameInTable="columnRecordID" msprop:Generator_ColumnPropNameInTable="RecordIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CategoryID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CategoryID" msprop:Generator_ColumnPropNameInRow="CategoryID" msprop:Generator_ColumnVarNameInTable="columnCategoryID" msprop:Generator_ColumnPropNameInTable="CategoryIDColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PriceDesc" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PriceDesc" msprop:Generator_ColumnPropNameInRow="PriceDesc" msprop:Generator_ColumnVarNameInTable="columnPriceDesc" msprop:Generator_ColumnPropNameInTable="PriceDescColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LastModified" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LastModified" msprop:Generator_ColumnPropNameInRow="LastModified" msprop:Generator_ColumnVarNameInTable="columnLastModified" msprop:Generator_ColumnPropNameInTable="LastModifiedColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ISActive" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ISActive" msprop:Generator_ColumnPropNameInRow="ISActive" msprop:Generator_ColumnVarNameInTable="columnISActive" msprop:Generator_ColumnPropNameInTable="ISActiveColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="CostMultiplier" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CostMultiplier" msprop:Generator_ColumnPropNameInRow="CostMultiplier" msprop:Generator_ColumnVarNameInTable="columnCostMultiplier" msprop:Generator_ColumnPropNameInTable="CostMultiplierColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SellMultiplier" msdata:ReadOnly="true" msprop:Generator_UserColumnName="SellMultiplier" msprop:Generator_ColumnPropNameInRow="SellMultiplier" msprop:Generator_ColumnVarNameInTable="columnSellMultiplier" msprop:Generator_ColumnPropNameInTable="SellMultiplierColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="StartDate" msdata:ReadOnly="true" msprop:Generator_UserColumnName="StartDate" msprop:Generator_ColumnPropNameInRow="StartDate" msprop:Generator_ColumnVarNameInTable="columnStartDate" msprop:Generator_ColumnPropNameInTable="StartDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="StopDate" msdata:ReadOnly="true" msprop:Generator_UserColumnName="StopDate" msprop:Generator_ColumnPropNameInRow="StopDate" msprop:Generator_ColumnVarNameInTable="columnStopDate" msprop:Generator_ColumnPropNameInTable="StopDateColumn" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
